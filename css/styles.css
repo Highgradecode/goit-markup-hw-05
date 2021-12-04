@@ -121,6 +121,9 @@ body {
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
+    transition-property: var(--accent-color);
+    transition-duration: 250ms; 
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
  
 .site-nav .link:hover,
@@ -156,6 +159,9 @@ body {
     line-height: 1.14;
     letter-spacing: 0.02em;
     display: flex;
+    transition-property: var(--accent-color);
+    transition-duration: 250ms; 
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .contact-list .link:hover,
@@ -167,6 +173,9 @@ body {
 .contact-list-icon{
     fill: var(--first-text-color);
     margin-right: 10px;
+    transition-property: var(--accent-color);
+    transition-duration: 250ms; 
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .contact-list-icon:hover,
@@ -382,10 +391,16 @@ body {
     align-items: center;
     justify-content: center;
     background-color: var(--white-color);
+    transition-property: var(--accent-color);
+    transition-duration: 250ms; 
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .card-team-icon {
     fill: var(--first-icon-color);
+    transition-property: var(--second-icon-color);
+    transition-duration: 250ms; 
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .card-team-link:hover,
@@ -431,10 +446,17 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    transition-property: var(--accent-color);
+    transition-duration: 250ms; 
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    
 }
 
 .customers-icon {
     fill: var(--first-icon-color);
+    transition-property: var(--accent-color);
+    transition-duration: 250ms; 
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .customers-link:hover,
@@ -517,6 +539,12 @@ body {
     border-top: none;
 }
 
+.card-projects {
+    transition-property: box-shadow;
+    transition-duration: 250ms; 
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
 .card-projects.pointer {
     cursor: pointer;
 }
@@ -544,7 +572,9 @@ body {
     padding-left: 22px;
     padding-right: 22px;
     border-radius: 4px;
-
+    transition-property: var(--first-button-color), var(--accent-color);
+    transition-duration: 250ms; 
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 button.pointer {
@@ -687,6 +717,9 @@ button:hover {
     align-items: center;
     justify-content: center;
     background-color: rgba(255, 255, 255, 0.1);
+    transition-property: var(--accent-color);
+    transition-duration: 250ms; 
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-socials-icon {
