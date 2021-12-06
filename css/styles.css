@@ -781,6 +781,10 @@ button:hover {
     transition: opacity 300ms, visibility 300ms;
 }
 
+.backdrop.is-hidden .modal {
+    transform: scale(1.5);
+}
+
 .modal {
     width: 528px;
     min-height: 581px;
@@ -790,7 +794,8 @@ button:hover {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: scale(1) translate(-50%, -50%);
+    transition: transform 300ms;
 }
 
 .modal-close {
