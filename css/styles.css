@@ -618,7 +618,7 @@ body {
 
 /* Buttons */
 
-.button {
+.button-projects {
     color: var(--second-button-color);
     background-color: var(--second-background-color);
     border: 0;
@@ -640,17 +640,17 @@ body {
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-button.pointer {
+.button-projects .pointer {
     cursor: pointer;
 }
 
-button:hover {
+.button-projects:hover {
     color: var(--first-button-color);
     background-color: var(--accent-color);
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
-.modal-button-hero {
+.modal-btn-hero {
     color: var(--first-button-color);
     background-color: var(--accent-color);
     border: 0;
