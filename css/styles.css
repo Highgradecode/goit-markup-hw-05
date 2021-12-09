@@ -181,12 +181,6 @@ body {
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }                                                                          
 
-.contact-list-link:hover,
-
-.contact-list-link:focus {
-    color: var(--accent-color);
-}
-
 .contact-list-icon {
     fill: var(--first-text-color);
     margin-right: 10px;
@@ -196,11 +190,16 @@ body {
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.contact-list-link:hover,
 .contact-list-icon:hover,
 
+
+.contact-list-link:focus,
 .contact-list-icon:focus {
+    color: var(--accent-color);
     fill: currentColor;
 }
+
 
 /* Hero */
 
