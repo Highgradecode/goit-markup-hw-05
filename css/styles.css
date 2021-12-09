@@ -164,6 +164,10 @@ body {
 }
 
 .contact-list {
+    display: flex;
+}
+
+.contact-list-link {
     color: var(--first-text-color);
     text-decoration: none;
     list-style: none;
@@ -171,15 +175,14 @@ body {
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
-    display: flex;
     transition-property: var(--accent-color);
     transition-duration: 250ms; 
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
+}                                                                          
 
-.contact-list .link:hover,
+.contact-list-link:hover,
 
-.contact-list .link:focus {
+.contact-list-link:focus {
     color: var(--accent-color);
 }
 
@@ -194,7 +197,7 @@ body {
 .contact-list-icon:hover,
 
 .contact-list-icon:focus {
-    fill: var(--accent-color);
+    fill: currentColor;
 }
 
 /* Hero */
