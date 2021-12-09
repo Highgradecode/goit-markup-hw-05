@@ -189,6 +189,7 @@ body {
 .contact-list-icon {
     fill: var(--first-text-color);
     margin-right: 10px;
+    position: line;
     transition-property: var(--accent-color);
     transition-duration: 250ms; 
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
