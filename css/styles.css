@@ -168,7 +168,8 @@ body {
 }
 
 .contact-list-link {
-    display: flex;
+    
+    display: block;
     color: var(--first-text-color);
     text-decoration: none;
     list-style: none;
