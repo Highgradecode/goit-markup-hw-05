@@ -192,15 +192,17 @@ body {
 }
 
 .contact-list-link:hover,
-.contact-list-icon:hover,
 
-
-.contact-list-link:focus,
-.contact-list-icon:focus {
+.contact-list-link:focus {
     color: var(--accent-color);
-    fill: currentColor;
 }
 
+
+.contact-list-icon:hover,
+
+.contact-list-icon:focus {
+    fill: currentColor;
+}
 
 /* Hero */
 
