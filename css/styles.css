@@ -183,6 +183,7 @@ body {
 }                                                                          
 
 .contact-list-icon {
+    vertical-align: text-top;
     fill: currentColor;
     margin-right: 10px;
 }
